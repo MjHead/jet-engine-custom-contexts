@@ -12,4 +12,4 @@ add_action( 'jet-engine-custom-context', function( $config ) {
 ## How to use
 - Download, install and activate plugin;
 - Add configuration code (see example above) into the end of **functions.php** file of your active theme.
-- Set required taxonomy as Context for JetEngine dynamic widgets or dynamic tags.
+- Set required taxonomy as Context for JetEngine dynamic widgets.

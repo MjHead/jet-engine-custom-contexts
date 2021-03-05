@@ -15,5 +15,5 @@ add_action( 'jet-engine-custom-context', function( $config ) {
 - Add configuration code (see example above) into the end of **functions.php** file of your active theme.
 - Set required taxonomy as Context for JetEngine dynamic widgets.
 
-![Context option]( https://raw.githubusercontent.com/MjHead/jet-engine-custom-contexts/master/output.png "Context option" )
+![Context option]( https://raw.githubusercontent.com/MjHead/jet-engine-custom-contexts/master/screen.png "Context option" )
 >Context option

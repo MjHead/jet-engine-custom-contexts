@@ -62,7 +62,17 @@ class Context {
 		$terms = wp_get_post_terms( $post_id, $tax );
 
 		if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
+
+			foreach ( $terms as $term ) {
+				// Return the first found parent term of the post terms
+				if ( ! $term->parent ) {
+					return $term;
+				}
+			}
+
+			// If post terms is only child terms - return first found term
 			return $terms[0];
+
 		}
 
 	}

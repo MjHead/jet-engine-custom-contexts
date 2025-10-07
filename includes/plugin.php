@@ -23,6 +23,21 @@ class Plugin {
 	 * @var Plugin
 	 */
 	public static $instance = null;
+
+	/**
+	 * Stores active config instance
+	 *
+	 * @var Config
+	 */
+	public $config;
+
+	/**
+	 * Stores active contexts manager instance
+	 *
+	 * @var Context
+	 */
+	public $context;
+	
 	/**
 	 * Instance.
 	 *
